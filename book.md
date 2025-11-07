@@ -1,9 +1,5 @@
 # Tangible Interfaces Book Proposal
 
-## Intended Audience
-
-UX designers who want to build job skills, prototype a startup product, or simply have fun hacking to expand their understanding of how interaction design applies, and differs, in the real world.
-
 ## Elevator Pitch
 
 Like in the book "Flatland", UX design has been trapped in a 2 dimensional world of glowing rectangles, yet a fascinating "third" dimensional world exists for designers to explore. This book introduces "Tangible Interface Design", or UX Design for the real world.
@@ -24,9 +20,21 @@ The book is designed to work with an open source educational kit of electronics 
 - Designing Collaborative objects
 - Prototyping The Physical User Experience
 
+## Intended Audience
+
+UX designers who want to prototype a startup product, build job skills for working with engineers, or simply have fun hacking to expand their understanding of how interaction design applies, and differs, in the real world. The book could also serve as a text book, as there are many high school/college intro to electronics classes.
+
 ## Competitive Research
 
 Lists below, but there hasn't been a book on this in 10-15 years!
+
+Most recent books focus either on:
+
+- Pure electronics/engineering (Arduino cookbooks)
+- Screen-based UX design
+- Specific domains (wearables, IoT products)
+
+This book fills the gap for UX designers who want to work with physical interfaces.
 
 ## Placeholder Book Structure
 
@@ -50,10 +58,87 @@ Lists below, but there hasn't been a book on this in 10-15 years!
 
 ### Interaction Design for Physical Devices
 
-- Designing for movement, space, physical gestures
-- Feedback modalities: haptics, sound, light, mechanical motion
-- Contextual & environmental factors (lighting, noise, user movement)
-- Accessibility & inclusivity in physical computing
+This section presents 10 concept-workshop pairs, each exploring a fundamental principle of tangible interface design through hands-on prototyping.
+
+#### 1. Tactile Satisfaction: Understanding Feel and Feedback
+
+**Concept:** What makes something satisfying to touch? Explore the principles of haptic design through texture, weight, resistance, and mechanical feedback. From fidget toys to precision controls, physical sensation drives engagement.
+
+**Workshop:** Design and 3D print a fidget toy that explores different tactile sensations. Iterate on weight distribution, surface texture, and mechanical action. Test with users to identify what feels "right."
+
+**Key Principles:** Haptic feedback, mechanical advantage, ergonomics, material choice
+
+#### 2. Sensing the World: Analog Input and Ambiguity
+
+**Concept:** Unlike digital buttons, analog sensors provide continuous, often noisy data. Learn to interpret potentiometers, light sensors, and distance sensors. Understand signal smoothing, thresholds, and how to design interactions around imperfect data.
+
+**Workshop:** Create a simple media controller using an analog sensor (potentiometer or light sensor). Implement basic data smoothing and map sensor values to control functions.
+
+**Key Principles:** Signal processing, threshold design, data smoothing, mapping analog to digital actions
+
+#### 3. Rotary Controls: The Power of the Dial
+
+**Concept:** Rotary encoders and potentiometers offer intuitive control for continuous values like volume and brightness. Study what makes dials feel premium (detents, resistance, visual feedback) versus cheap. Examine historical examples from audio equipment.
+
+**Workshop:** Build a volume control using a rotary encoder or potentiometer. Experiment with different physical knob designs. Add visual or haptic feedback to enhance the experience.
+
+**Key Principles:** Rotary encoding, detent design, continuous vs. stepped input, knob feel
+
+#### 4. Physical Buttons vs. Touch: The Car Dashboard Debate
+
+**Concept:** Why are touchscreens in cars now considered dangerous? Analyze the ergonomic and safety implications of physical vs. touch controls. Explore eyes-free operation, muscle memory, and haptic landmarks.
+
+**Workshop:** Design a simple control interface for a specific use case (driving, medical, food service). Compare button-based vs. touch-based approaches. Test for eyes-free usability.
+
+**Key Principles:** Contextual design, safety-critical interfaces, affordances, blind operation
+
+#### 5. Motion and Gesture: Accelerometers and Spatial Input
+
+**Concept:** Accelerometers and gyroscopes enable gesture-based interaction. Learn to design for tilt, shake, and rotation. Consider calibration, gesture recognition, and the difference between intentional and incidental movement.
+
+**Workshop:** Create a tilt-based game or control system using the micro:bit's built-in accelerometer. Design gestures that feel natural and test their reliability.
+
+**Key Principles:** Gesture design, motion sensing, calibration, false positive prevention
+
+#### 6. Distance and Proximity: Sensing Space
+
+**Concept:** Ultrasonic and infrared sensors detect presence and distance. Applications range from automatic doors to musical instruments. Understand range limitations, beam angles, and designing around environmental interference.
+
+**Workshop:** Build a proximity-aware device using an ultrasonic sensor. Map distance to servo position or LED brightness. Create an interface that responds to approach/withdrawal.
+
+**Key Principles:** Proximity sensing, spatial interaction, range mapping, environmental factors
+
+#### 7. Output Beyond Screens: LEDs, Servos, and Sound
+
+**Concept:** Physical outputs create richer feedback than screens alone. LEDs provide ambient information, servos create motion, speakers add audio. Learn when to use each modality and how to combine them.
+
+**Workshop:** Design a notification device that uses non-screen outputs. Use LEDs for status, servos for physical motion, and buzzers for alerts. Consider ambient vs. attention-demanding feedback.
+
+**Key Principles:** Multi-modal feedback, ambient computing, attention management, output selection
+
+#### 8. Prototyping Strategy: "Looks Like" vs. "Works Like"
+
+**Concept:** Professional designers separate form exploration from functional testing. A "looks like" prototype validates size, shape, and ergonomics. A "works like" prototype tests interaction and electronics. Understanding when to build which type accelerates iteration.
+
+**Workshop:** Create both prototype types for a wearable remote control. Build an oversized "works like" version to test electronics and code, plus a properly sized "looks like" model to evaluate wearability.
+
+**Key Principles:** Rapid prototyping, separation of concerns, iterative design, form vs. function
+
+#### 9. Wireless Communication: Creating Connected Devices
+
+**Concept:** Bluetooth enables devices to control phones and computers, or communicate with each other. Understand pairing, HID profiles, and basic wireless architecture. Design for connection states (paired, searching, disconnected).
+
+**Workshop:** Build a Bluetooth media remote control. Implement pairing, basic media controls, and feedback for connection status. Test with multiple devices (phone, laptop).
+
+**Key Principles:** Wireless protocols, device pairing, connection management, cross-platform compatibility
+
+#### 10. User Context and Constraints: Designing for Real Needs
+
+**Concept:** The best interfaces solve real problems in specific contexts. Operating rooms require sterile controls. Motorcycles need handlebar-mounted interfaces. Users with limited mobility need alternative input methods. Constraints drive innovation.
+
+**Workshop:** Research a specific user context (surgery, cycling, accessibility need) and design a remote control for that scenario. Conduct user research to validate assumptions. Present final design with context documentation.
+
+**Key Principles:** User research, contextual inquiry, accessibility, constraint-driven design
 
 ### UX Research & Testing in Physical Prototypes
 
@@ -85,7 +170,7 @@ Lists below, but there hasn't been a book on this in 10-15 years!
 - Tutorials & starter kits
 - Glossary of hardware/UX terms
 
-## Interaction Design & Physical Computing Books
+## Interaction Design & Physical Computing Sources
 
 ### Design & Interaction Fundamentals
 
