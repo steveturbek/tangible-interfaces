@@ -44,9 +44,10 @@ This book fills the gap for UX designers who want to work with physical interfac
 ### Introduction
 
 - Why physical computing matters for UX designers
-- What's new/different compared to screen-only UX
+- What's new/different in designing tangible interfaces than on-screen UX
 - Who this book is for (prototypers, startup idea folks, hobbyists, students)
-- Who this book is not for (electrical engineers)
+- Who this book is NOT for (electrical engineers)
+- Why this author (and not an electrical engineer)?
 
 ### Foundations
 
