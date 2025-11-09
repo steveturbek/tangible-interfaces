@@ -55,6 +55,15 @@ This book fills the gap for UX designers who want to work with physical interfac
 - The physical-digital interface: bridging hardware + software + UI
 - Accessibility for all: What are tools for?
 
+### A prototyping philosophy
+
+- Why write a design book about prototypes?
+- What is a prototype and why make them?
+- Learning through making
+- Don't fail fast, learn fast
+- Why designers fear usability tests
+- Do you know something, or just know about something? - the designers curse
+
 ### Strategic Design Decisions
 
 #### When to Go Physical vs. Screen
