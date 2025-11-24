@@ -42,7 +42,7 @@ Class 2
 - Class discussion on fidget toys
 - Pencil sketching for your ideas
 
-Homework for NEXT Thursday
+Homework
 
 - Sketch, Sketch, Sketch!
 - remember to 3D print test models early!
@@ -94,7 +94,7 @@ In class work on 3D model, software, & electronics
 Concepts
 
 - Analog readings - proportion of voltage, compared to reference
-- WHy 1023? Binary counting, slices and resolution
+- Why 1023? Binary counting, slices and resolution
 - Map function in Microbit editor
 - Controlling Servos
 
