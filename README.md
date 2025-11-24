@@ -13,7 +13,6 @@ We explore the theory and practices of the User Experience Design Process in the
 - [Tangible Interfaces Submarine Simulator Project](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
 
 <p align="center">
-  <img src="images/2025_fall_7241.jpeg" width="180" alt="Class project 1">
   <img src="images/2025_fall_7271.jpeg" width="180" alt="Class project 2">
   <img src="images/2025_fall_7272.jpeg" width="180" alt="Class project 3">
   <img src="images/2025_fall_7431.jpeg" width="180" alt="Class project 4">
