@@ -96,7 +96,7 @@ Concepts
 - Analog readings - proportion of voltage, compared to reference
 - WHy 1023? Binary counting, slices and resolution
 - Map function in Microbit editor
-- Controling Servos
+- Controlling Servos
 
 Class 9
 In class work on 3D model, software, & electronics
@@ -251,7 +251,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [Unusual Round Displays and How to Use Them](https://youtube.com/watch?v=FUU0CAjp1OQ&si=UcEB3_FKxkY1a_-c)
 - [ANO Directional Navigation and Scroll Wheel Rotary Encoder](https://www.adafruit.com/product/5001)
 - [AnySkin: Plug-and-play Skin Sensing for Robotic Touch](https://any-skin.github.io/)
-- [connect old skool joystick to arduino](https://www.instructables.com/DB-15-Joystick-Adapter-Device-With-Arduino/)
+- [connect old school joystick to arduino](https://www.instructables.com/DB-15-Joystick-Adapter-Device-With-Arduino/)
 
 ## Fidget Toys
 
