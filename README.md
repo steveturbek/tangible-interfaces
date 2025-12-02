@@ -1,5 +1,15 @@
 # Tangible Interfaces Class
 
+<div class="toc-wrapper" markdown="1">
+
+## Contents
+
+{: .no_toc}
+
+- TOC
+{:toc}
+</div>
+
 This page contains the materials for the Tangible Interfaces Senior Industrial Design Studio at Pratt Institute, created by [Steve Turbek](https://turbek.com) in 2025.
 
 The studio focuses on designing with tactile and sensory components to build interactive user experiences embodied in physical products. The studio is built around on iterative making with extensive use of 3D modeling and printing.
@@ -12,7 +22,7 @@ We explore the theory and practices of the User Experience Design Process in the
 - [Microbit Media Remote Project](project-microbit-media-remote.html)
 - [Tangible Interfaces Submarine Simulator Project](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
 
-<p align="center">
+<p style="text-align:center">
   <img src="images/2025_fall_7271.jpeg" width="200" alt="Class project 2">
   <img src="images/2025_fall_7272.jpeg" width="200" alt="Class project 3">
   <img src="images/2025_fall_7431.jpeg" width="200" alt="Class project 4">
@@ -332,13 +342,3 @@ There are LOTS of diagrams to convey some intangible ideas and best practices of
 - eBay – [Include—Accessibility Annotations](https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations)
 - Indeed – [A11y Annotation Kit](https://www.figma.com/community/file/953682768192596304/a11y-annotation-kit)
 - Intopia – [accessibility annotation kit](https://www.figma.com/community/file/1022394680250523675/intopias-accessibility-annotation-kit)
-
-<div class="toc-wrapper" markdown="1">
-
-## Contents
-
-{: .no_toc}
-
-- TOC
-{:toc}
-</div>
