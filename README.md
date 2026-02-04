@@ -315,6 +315,8 @@ The microbit is a small and inexpensive computer and circuit board, which can be
   - [Physical Computing: Sensing and Controlling the Physical](https://archive.org/details/physicalcomputin0000osul), by Tom Igoe and Dan O'Sullivan, 2004
   - [Smart Things: Ubiquitous Computing User Experience Design](https://archive.org/details/smartthingsubiqu0000kuni) by Mike Kuniavsky, 2010
   - [Haptic Interaction Design for Everyday Interfaces](https://web.stanford.edu/class/me327/readings/MacLean08-RHFE-Design.pdf) by Karon E MacLean, 2008
+  - [Playful Wearables: Understanding the Design Space of Wearables for Games and Related Experiences](https://mitpress.mit.edu/9780262546911/playful-wearables/) by
+    By Oğuz Buruk, Ella Dagan, Katherine Isbister, Elena Márquez Segura and Theresa Jean Tanenbaum, 2024
 
 ## Essays, Articles
 
@@ -323,6 +325,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://turbek.com/articles/2012/usability-of-coffee.html](https://turbek.com/articles/2012/usability-of-coffee.html)
 - [ACM International Conference on Tangible, Embedded and Embodied Interaction](https://tei.acm.org/2025/about/about)
 - [Haptic UX — The Design Guide for Building Touch Experiences](https://medium.muz.li/haptic-ux-the-design-guide-for-building-touch-experiences-84639aa4a1b8) by Justin Baker, 2019
+- [International Conference on Tangible Embedded and Embodied Interaction](https://tei.acm.org)
 
 # Reference: Design Process
 
