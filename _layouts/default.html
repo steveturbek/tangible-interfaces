@@ -6,81 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
 
+    <link rel="stylesheet" href="css/shared-styles.css" />
     <style>
-
-
-
-:root {
-  --bg: #faf9f6;
-  --color-teal: #024454;
-  --color-red: #d84d50;
-  --color-beige: #e4d0b9;
-  --color-tan: #c19280;
-  --color-blue: #5c82a7;
-  --color-sage: #6f8a81;
-  --color-peach: #fdc296;
-  --color-gray: #606060;
-  --color-orange: #ffb55c;
-  --color-black: #231f20;
-  --color-cream: #fcf8f5;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1a1816;
-    --color-teal: #4a9bae;      /* lightened */
-    --color-red: #e87b7d;       /* lightened */
-    --color-beige: #8a7566;     /* darkened */
-    --color-tan: #9a7768;       /* darkened */
-    --color-blue: #7a9dbd;      /* lightened */
-    --color-sage: #8ba89d;      /* lightened */
-    --color-peach: #c9956d;     /* darkened */
-    --color-gray: #a0a0a0;      /* lightened */
-    --color-orange: #d9a066;    /* darkened */
-    --color-black: #e8e4e0;     /* inverted to light */
-    --color-cream: #2a2624;     /* inverted to dark */
-  }
-}
-
-      html {
-        width: 100%;
-        padding: 0;
-      }
-      body {
-        width: 100%;
-        /* margin: 0%; */
-        text-align: center;
-        font: 400 100% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
-        font-size: 120%;
-        text-rendering: optimizeLegibility;
-        text-wrap: pretty;
-          background-color: var(--color-cream);
-        color: var(--color-black);
-      }
-
-      #main {
-        margin: auto;
-        margin-top: 1em;
-        max-width: 1100px;
-      }
-
-      #mini-header,
-      footer {
-        width: 100%;
-        text-align: left;
-        margin-bottom: 2em;
-      }
-
-      #content-container {
-        position: relative;
-      }
-
-      #content {
-        text-align: left;
-        margin-bottom: 2em;
-        max-width: 800px;
-      }
-
       /* TOC Styling - positioned outside to the right */
       .toc-wrapper {
         position: absolute;
@@ -100,7 +27,6 @@
           float: right;
           margin-left: 2em;
           margin-right: calc(-250px - 2em); /* Pull it out to the right */
-          
         }
       }
 
@@ -128,11 +54,11 @@
 
       /* hide title in TOC */
       .toc-wrapper > ul > li > a {
-        display: none; 
+        display: none;
       }
       /* hide TOC in TOC */
       .toc-wrapper > ul > li > ul > li:first-of-type {
-        display: none; 
+        display: none;
       }
 
       .toc-wrapper li {
@@ -148,52 +74,9 @@
         color: #2e4d9c;
       }
 
-      a:link,
-      a:visited {
-        text-decoration: none;
-        color: #2e4d9c;
-        /* background: transparent;  */
-      }
-
-      a:hover {
-        background: transparent;
-        text-decoration: underline;
-      }
-
-      a:active {
-        font-weight: bold;
-        color: #99ff00;
-        background: transparent;
-      }
-
-h1,h2,h3,h4,h5 {
-  font-weight: 500;
-}
-
-      p, li {
-        font-size: 14px;
-      }
-
-/* hack to show SVG instructions in github readme preview, but hide in github pages, processed with Jekyll */
-      .hideFromJekyll-showInGithubPreview{
-        display: none;
-      }
-
       @media screen and (max-width: 1100px) {
         .toc-wrapper {
           display: none; /* Hide TOC on smaller screens */
-        }
-      }
-
-      @media screen and (max-width: 510px) {
-        #main {
-          padding: 0;
-          margin: 0;
-          max-width: 95%;
-        }
-
-        a {
-          word-break: break-all;
         }
       }
     </style>
@@ -211,8 +94,8 @@ path { fill: #000000; }
 <path d="M733.976 231.728C697.352 238.979 675.584 253.827 656.236 284.559C642.07 307.004 624.959 341.301 624.721 387.064C623.726 578.572 626.366 785.285 625.218 989.675C648.769 989.42 672.326 990.22 695.886 989.94L697.043 760.387C697.043 760.387 699.425 515.222 704.607 497.266C718.082 449.269 740.886 424.407 780.965 413.357C784.766 412.321 831.41 410.94 884.619 410.25C937.828 409.904 990 409 990 409C990 348.298 990 287.596 990 226.893L873.217 226.893C790.985 227.239 749.524 228.275 733.976 231.728Z"/>
 </svg></a>
 <h1 style="display: inline; font-size: 150%; font-weight: 200;">
-  <a href="/{{ site.github.repository_name }}/">{{ site.github.repository_name | replace: "-", " " }}</a> 
-  <span style="font-size:70%; font-weight: 400;">by</span> 
+  <a href="/{{ site.github.repository_name }}/">{{ site.github.repository_name | replace: "-", " " }}</a>
+  <span style="font-size:70%; font-weight: 400;">by</span>
   <a href="https://turbek.com">Steve&nbsp;Turbek</a></h1></a
         >
       </div>
