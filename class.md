@@ -1,3 +1,7 @@
+---
+title: Tangible Interfaces Class
+---
+
 # Tangible Interfaces Class
 
 <div class="toc-wrapper" markdown="1">

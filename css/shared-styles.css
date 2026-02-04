@@ -30,6 +30,21 @@
   }
 }
 
+@font-face {
+  font-family: "ER";
+  src: url("er.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ER_BI";
+  src: url("er-bi.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 html {
   width: 100%;
   padding: 0;
@@ -39,7 +54,7 @@ body {
   width: 100%;
   text-align: center;
   font:
-    400 100% "Helvetica Neue",
+    400 100% Avenir,
     Helvetica,
     "Arial Unicode MS",
     Arial,
@@ -65,15 +80,13 @@ footer {
   margin-bottom: 2em;
 }
 
-#content-container {
-  position: relative;
-}
-
 #content,
 footer {
   text-align: left;
-  margin-bottom: 2em;
   max-width: 800px;
+}
+
+#content div {
   padding: 1em;
 }
 
@@ -99,7 +112,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+  font-family: "ER_BI", Georgia, "Arial Unicode MS", Arial, sans-serif;
 }
 
 /* hack to show SVG instructions in github readme preview, but hide in github pages, processed with Jekyll */

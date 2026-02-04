@@ -1,3 +1,7 @@
+---
+title: Tangible Interfaces References
+---
+
 # Tangible Interfaces References
 
 <div class="toc-wrapper" markdown="1">
