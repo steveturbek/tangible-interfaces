@@ -7,6 +7,41 @@
     <meta charset="utf-8" />
 
     <style>
+
+
+
+:root {
+  --bg: #faf9f6;
+  --color-teal: #024454;
+  --color-red: #d84d50;
+  --color-beige: #e4d0b9;
+  --color-tan: #c19280;
+  --color-blue: #5c82a7;
+  --color-sage: #6f8a81;
+  --color-peach: #fdc296;
+  --color-gray: #606060;
+  --color-orange: #ffb55c;
+  --color-black: #231f20;
+  --color-cream: #fcf8f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1816;
+    --color-teal: #4a9bae;      /* lightened */
+    --color-red: #e87b7d;       /* lightened */
+    --color-beige: #8a7566;     /* darkened */
+    --color-tan: #9a7768;       /* darkened */
+    --color-blue: #7a9dbd;      /* lightened */
+    --color-sage: #8ba89d;      /* lightened */
+    --color-peach: #c9956d;     /* darkened */
+    --color-gray: #a0a0a0;      /* lightened */
+    --color-orange: #d9a066;    /* darkened */
+    --color-black: #e8e4e0;     /* inverted to light */
+    --color-cream: #2a2624;     /* inverted to dark */
+  }
+}
+
       html {
         width: 100%;
         padding: 0;
@@ -18,7 +53,8 @@
         font: 300 100.01% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
         text-rendering: optimizeLegibility;
         text-wrap: pretty;
-        background-color: #ddd;
+          background-color: var(--color-cream);
+        color: var(--color-black);
       }
 
       #main {
@@ -129,12 +165,12 @@
         background: transparent;
       }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
 
       p, li {
-        font-size: 120%;
+        font-size: 14px;
       }
 
 /* hack to show SVG instructions in github readme preview, but hide in github pages, processed with Jekyll */
