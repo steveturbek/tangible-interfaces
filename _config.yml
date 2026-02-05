@@ -4,7 +4,7 @@ description: >-
   Designing with tactile and sensory components to build
   interactive user experiences embodied in physical products.
 url: https://steveturbek.github.io
-baseurl: /Tangible-Interfaces
+baseurl: /tangible-interfaces
 
 # Build settings
 markdown: kramdown

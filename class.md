@@ -24,7 +24,7 @@ We explore the theory and practices of the User Experience Design Process in the
 ## Key Projects
 
 - [Microbit Media Remote Project](project-microbit-media-remote.html)
-- [Tangible Interfaces Submarine Simulator Project](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+- [Tangible Interfaces Submarine Simulator Project](https://github.com/steveturbek/tangible-interfaces-Submarine-Design-Project/tree/main)
 
 <p style="text-align:center">
   <img src="images/2025_fall_7271.jpeg" width="200" alt="Spencer Maher">
@@ -137,7 +137,7 @@ Homework: Bring finished models, software, electronics, with a Presentation mila
 - Introduce Project 3
 - Pick 4 teams of 3 people
 
-### Project 3: [Submarine Cockpit](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+### Project 3: [Submarine Cockpit](https://github.com/steveturbek/tangible-interfaces-Submarine-Design-Project/tree/main)
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.
 
