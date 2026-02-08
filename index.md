@@ -22,16 +22,10 @@ h2 {margin-top:3em;}
 The Tangible Interfaces Lab at Pratt Institute, created by
 [Steve Turbek](https://turbek.com), explores interaction design beyond the touchscreen. We design for touch, hearing, and the many other senses that people possess.
 
-> "Software is eating the world" [claimed Marc Andreessen in 2011](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460).
+["Software is eating the world"](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460) claimed Marc Andreessen in 2011. Many consumer products, from cameras to "walkmen" to car dashboards are now simply apps on featureless glass screens. This leads to bland product design and customer dissatisfaction. In car design, touch screens have become a safety concern. ["Touch Screen controls take four times longer to perform simple tasks"](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
 
-Many consumer products, from cameras to "walkmen" to car dashboards are now simply apps on featureless glass screens. This leads to bland product design and customer dissatisfaction.
-
-**_Tangible Interfaces are an opportunity for designers_**
-
-When &ldquo;everything is an app and all apps look the same&rdquo; physical interaction is an opportunity for industrial designers to create innovative new
+**Tangible Interfaces are an opportunity for designers.** When &ldquo;everything is an app and all apps look the same&rdquo; physical interaction is an opportunity for industrial designers to create innovative new
 products.
-
-In car design, touch screens have become a safety concern. ["Touch Screen controls take four times longer to perform simple tasks"](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
 
 ## [Blog](blog)
 
