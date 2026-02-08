@@ -39,9 +39,6 @@ products.
 
 ## [Class](class.html)
 
-Tangible Interfaces Senior Industrial Design Studio at Pratt Institute, created by
-[Steve Turbek](https://turbek.com).
-
 The studio focuses on designing for tactile and sensory experiences to build interactive user experiences embodied in physical products. The studio
 is built around iterative prototyping with extensive use of electronic components, 3D modeling/printing. It will introduce basic electronics
 using the BBC Microbit, a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or
@@ -50,23 +47,35 @@ electronics is expected.
 We explore the theory and practices of the User Experience Design Process in the context of physical object design. User Research and testing are
 integral to our process. Our designs must not only be beautiful; we must have the open mindset to validate our designs with users to improve them.
 
-### Projects
+<p style="text-align:center">
+  <img src="images/2025_fall_7271.jpeg" width="250" alt="Spencer Maher">
+  <img src="images/2025_fall_7272.jpeg" width="250" alt="Leon Shi">
+  <img src="images/2025_fall_7274.jpeg" width="250" alt="Jinlin Wang">
+</p>
+<p  style="text-align:center">  
+  <img src="images/2025_fall_7431.jpeg" width="250" alt="Team Wonder Four Sub cockpit">
+  <img src="images/2025_fall_7478.jpeg" width="250" alt="Team Sub Marine sub cockpit">
+  <img src="images/2025_fall_7479.jpeg" width="250" alt="Team B.A.S.S. sub cockpit">
+</p>
 
-Class projects that demonstrate Tangible Interfaces
+_(Photos of student work, used with permission)_
 
-- [Music Remote](projects/project-microbit-media-remote.md)
+## Projects
+
+Projects that demonstrate Tangible Interfaces
+
+- [Bluetooth Music Remote](projects/project-microbit-media-remote.md)
 - [Personal Submersible Cockpit](https://turbek.com/Tangible-Interfaces-Submarine-Design-Project/)
 - [Hacky Bird](projects/project-hacky-bird.md)
 
-## [Code Library](code.html)
-
-Sample code, tutorials, and reusable snippets for working with sensors, actuators, and communication protocols. Start here to get your prototypes up
-and running quickly.
-
 ## [Hardware](hardware.html)
 
-An overview of microcontrollers, sensors, motors, and other components used in the course. Includes pinout diagrams, specs, and tips for choosing
+An overview of microcontrollers, sensors, motors, and other components used in the course. Includes diagrams, specs, and tips for choosing
 the right parts for your project.
+
+## [Code Library](code.html)
+
+Sample code, tutorials, and reusable snippets for working with sensors, actuators, and communication protocols.
 
 ## [Further reading and references](references.html)
 
