@@ -73,7 +73,7 @@ Projects that demonstrate Tangible Interfaces
 An overview of microcontrollers, sensors, motors, and other components used in the course. Includes diagrams, specs, and tips for choosing
 the right parts for your project.
 
-## [Code Library](code.html)
+## [Code](code.html)
 
 Sample code, tutorials, and reusable snippets for working with sensors, actuators, and communication protocols.
 
