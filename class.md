@@ -131,6 +131,6 @@ Homework: Bring finished models, software, electronics, with a Presentation mila
 - Introduce Project 3
 - Pick 4 teams of 3 people
 
-### Project 3: [Submarine Cockpit](https://github.com/steveturbek/tangible-interfaces-Submarine-Design-Project/tree/main)
+### Project 3: [Submarine Cockpit](https://turbek.com/Tangible-Interfaces-Submarine-Design-Project/)
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.

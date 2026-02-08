@@ -57,8 +57,13 @@
         fill: #fcf8f5;
       }
 
-      #headertext:hover{
-fill: #5c82a7;
+      #headertext {
+        transition: fill 0.3s ease;
+      }
+
+      #headertext:hover {
+        fill: #5c82a7;
+        cursor: pointer;
       }
     </style>
   </defs>
