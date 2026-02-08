@@ -1,3 +1,18 @@
-<div id="mini-header">
+<style>
+  #header {
+    max-width: 800px;
+    margin: 0;
+  }
+
+  #header svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
+<div id="header">
+  {% if page.url == "/" %} {% include cover-image.svg %} {% else %}
   <a href="{{ '/' | relative_url }}">{% include header-image.svg %}</a>
+  {% endif %}
 </div>

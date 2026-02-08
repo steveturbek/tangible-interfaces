@@ -63,7 +63,7 @@ title: Tangible Interfaces References
 - [Fidgets on Printables.com](https://www.printables.com/search/models?ctx=models&q=fidget)
 - [Fidgets on Printables.com](https://www.printables.com/contest/77-fidget-toys)
 - [Fidgets on Cults3d.com](https://cults3d.com/en/search?q=fidget)
-- [Fidgets on Thingverse.com](https://www.thingiverse.com/search?q=fidget&page=1#google_vignette)
+- [Fidgets on Thingiverse.com](https://www.thingiverse.com/search?q=fidget&page=1#google_vignette)
 - [Fidgets on Thangs.com](https://thangs.com/search/fidget?scope=all)
 - [Fidgets on Makerworld.com](https://makerworld.com/en/search/collections?keyword=fidget)
 - [https://makerworld.com/en/models/71654-fidget-cock_n_pull](https://makerworld.com/en/models/71654-fidget-cock_n_pull)
@@ -96,8 +96,7 @@ title: Tangible Interfaces References
   - [Physical Computing: Sensing and Controlling the Physical](https://archive.org/details/physicalcomputin0000osul), by Tom Igoe and Dan O'Sullivan, 2004
   - [Smart Things: Ubiquitous Computing User Experience Design](https://archive.org/details/smartthingsubiqu0000kuni) by Mike Kuniavsky, 2010
   - [Haptic Interaction Design for Everyday Interfaces](https://web.stanford.edu/class/me327/readings/MacLean08-RHFE-Design.pdf) by Karon E MacLean, 2008
-  - [Playful Wearables: Understanding the Design Space of Wearables for Games and Related Experiences](https://mitpress.mit.edu/9780262546911/playful-wearables/) by
-    By Oğuz Buruk, Ella Dagan, Katherine Isbister, Elena Márquez Segura and Theresa Jean Tanenbaum, 2024
+  - [Playful Wearables: Understanding the Design Space of Wearables for Games and Related Experiences](https://mitpress.mit.edu/9780262546911/playful-wearables/) by Oğuz Buruk, Ella Dagan, Katherine Isbister, Elena Márquez Segura and Theresa Jean Tanenbaum, 2024
 
 ## Essays, Articles
 

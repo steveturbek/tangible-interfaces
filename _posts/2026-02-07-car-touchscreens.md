@@ -30,6 +30,6 @@ Safety concerns are paramount, as research consistently shows touchscreens requi
 - [Auto Interfaces](https://www.autointerfaces.com)
 - [Sci-Fi Interfaces](https://scifiinterfaces.com)
 
-Interestingly, the new apple car play addresses very few of the safety concerns above
+Interestingly, the new Apple CarPlay addresses very few of the safety concerns above
 
 - [New Apple CarPlay Ultra tested: hands-on](https://www.topgear.com/car-news/tech/new-apple-carplay-ultra-tested-hands-every-new-feature#comments)

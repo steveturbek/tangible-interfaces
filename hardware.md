@@ -43,9 +43,9 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 
 Students sometimes compromise the designed form of their design model to accommodate the prototype electronics. We don't make that mistake in this class.
 
-Your design may be too small to hold the electronics, that is totally normal early in the design process. That's why we make "looks like" (aka actual size and shape) models, to see how it feels, and also, larger prototypes to test interaction, So for example, if you were designing an electronic ring remote, you could make one the size of a bracelet, or have the wires coming out into a box. Totally normal for prototyping.
+Your design may be too small to hold the electronics, that is totally normal early in the design process. That's why we make "looks like" (aka actual size and shape) models, to see how it feels, and also, larger prototypes to test interaction. So for example, if you were designing an electronic ring remote, you could make one the size of a bracelet, or have the wires coming out into a box. Totally normal for prototyping.
 
-When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often look totally different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
+When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They often look totally different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 
 ## Tech Tips Triage for Microbit
 
@@ -60,4 +60,4 @@ When designing modern products, Designers and Engineers often make a "looks like
 - Be very careful with pauses - the microbit doesn't do ANYTHING when paused and will miss input or output.
 - When powered just by microbit, a servo range is 90 degrees and is slower
 - When powered with 6 AA, servo range goes to 180 degrees, is faster
-- I2EE LCD screen - remember to adjust polarity or can look off
+- I2C LCD screen - remember to adjust polarity or can look off

@@ -2,7 +2,7 @@
 title: Tangible Interfaces Code
 ---
 
-# Tangible Interfaces Code
+# Code
 
 <div class="toc-wrapper" markdown="1">
 
@@ -14,7 +14,7 @@ title: Tangible Interfaces Code
 {:toc}
 </div>
 
-## Microbit Class code samples
+## Basic Microbit Class code samples
 
 1. [Compass](https://makecode.microbit.org/S73740-73796-06271-95761)
 1. [Accelerometer Tilt Game](https://makecode.microbit.org/S21771-63176-65881-31903)

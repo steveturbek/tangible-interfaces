@@ -6,8 +6,136 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="{{ '/css/shared-styles.css' | relative_url }}" />
     <style>
+      :root {
+        --bg: #fff;
+        --color-teal: #024454;
+        --color-red: #d84d50;
+        --color-beige: #e4d0b9;
+        --color-tan: #c19280;
+        --color-blue: #5c82a7;
+        --color-sage: #6f8a81;
+        --color-peach: #fdc296;
+        --color-gray: #606060;
+        --color-orange: #ffb55c;
+        --color-darkgray: #231f20;
+        --color-cream: #fcf8f5;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1a1816;
+          --color-teal: #4a9bae; /* lightened */
+          --color-red: #e87b7d; /* lightened */
+          --color-beige: #8a7566; /* darkened */
+          --color-tan: #9a7768; /* darkened */
+          --color-blue: #7a9dbd; /* lightened */
+          --color-sage: #8ba89d; /* lightened */
+          --color-peach: #c9956d; /* darkened */
+          --color-gray: #a0a0a0; /* lightened */
+          --color-orange: #d9a066; /* darkened */
+          --color-darkgray: #e8e4e0; /* inverted to light */
+          --color-cream: #2a2624; /* inverted to dark */
+        }
+      }
+
+      @font-face {
+        font-family: "ER";
+        src: url("css/er.woff2") format("woff2");
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "ER_BI";
+        src: url("css/er-bi.woff2") format("woff2");
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+      }
+
+      html {
+        width: 100%;
+        padding: 0;
+      }
+
+      body {
+        width: 100%;
+        text-align: center;
+        font:
+          400 100% Avenir,
+          Helvetica,
+          "Arial Unicode MS",
+          Arial,
+          sans-serif;
+        font-size: 120%;
+        text-rendering: optimizeLegibility;
+        text-wrap: pretty;
+        background-color: var(--bg);
+        color: var(--color-darkgray);
+        margin: 0;
+      }
+
+      #main {
+        margin: auto;
+        max-width: 1100px;
+        background-color: var(--color-cream);
+      }
+
+      #content div:not(#header) {
+        padding: 1em;
+      }
+
+      #content,
+      footer {
+        text-align: left;
+        width: 100%;
+        padding: 1em;
+        max-width: 800px;
+      }
+
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: var(--color-blue);
+      }
+
+      a:hover {
+        background: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        font-weight: bold;
+        color: #99ff00;
+        background: transparent;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: "ER_BI", Georgia, "Arial Unicode MS", Arial, sans-serif;
+      }
+
+      /* hack to show SVG instructions in github readme preview, but hide in github pages, processed with Jekyll */
+      .hideFromJekyll-showInGithubPreview {
+        display: none;
+      }
+
+      @media screen and (max-width: 510px) {
+        #main {
+          padding: 0;
+          margin: 0;
+          max-width: 95%;
+        }
+
+        a {
+          word-break: break-all;
+        }
+      }
+
       /* TOC Styling - positioned outside to the right */
       .toc-wrapper {
         position: absolute;
@@ -48,16 +176,16 @@
         margin-top: 0.25em;
       }
 
-      .toc-wrapper ul ul ul {
+      .toc-wrapper ul ul {
         display: none; /* Hide depth 3+ */
       }
 
       /* hide title in TOC */
-      .toc-wrapper > ul > li > a {
+      /* .toc-wrapper > ul > li > a {
         display: none;
-      }
+      } */
       /* hide TOC in TOC */
-      .toc-wrapper > ul > li > ul > li:first-of-type {
+      .toc-wrapper > ul > li:first-of-type {
         display: none;
       }
 
@@ -88,9 +216,8 @@
         {% if page.date %}
         <p><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
         <h1>{{ page.title }}</h1>
-        <p style="color: var(--color-darkgray); font-size: 90%;">{{ page.date | date: "%B %-d, %Y" }}</p>
-        {% endif %}
-        {{ content }}
+        <p style="color: var(--color-darkgray); font-size: 90%">{{ page.date | date: "%B %-d, %Y" }}</p>
+        {% endif %} {{ content }}
       </div>
       <footer>
         <p>© steve turbek</p>
