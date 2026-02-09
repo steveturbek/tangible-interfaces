@@ -2,14 +2,9 @@
 title: Tangible Interfaces Code
 ---
 
-# Code
-
 <div class="toc-wrapper" markdown="1">
-
 ## Contents
-
 {: .no_toc}
-
 - TOC
 {:toc}
 </div>

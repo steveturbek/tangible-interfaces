@@ -2,14 +2,9 @@
 title: Tangible Interfaces References
 ---
 
-# Tangible Interfaces References
-
 <div class="toc-wrapper" markdown="1">
-
 ## Contents
-
 {: .no_toc}
-
 - TOC
 {:toc}
 </div>

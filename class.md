@@ -2,14 +2,9 @@
 title: Tangible Interfaces Class
 ---
 
-# Tangible Interfaces Class
-
 <div class="toc-wrapper" markdown="1">
-
 ## Contents
-
 {: .no_toc}
-
 - TOC
 {:toc}
 </div>
@@ -30,24 +25,6 @@ We explore the theory and practices of the User Experience Design Process in the
   <img src="images/2025_fall_7271.jpeg" width="200" alt="Spencer Maher">
   <img src="images/2025_fall_7272.jpeg" width="200" alt="Leon Shi">
   <img src="images/2025_fall_7274.jpeg" width="200" alt="Jinlin Wang">
-</p>
-<p  style="text-align:center">  
-  <img src="images/2025_fall_7431.jpeg" width="200" alt="Team Wonder Four Sub cockpit">
-  <img src="images/2025_fall_7478.jpeg" width="200" alt="Team Sub Marine sub cockpit">
-  <img src="images/2025_fall_7479.jpeg" width="200" alt="Team B.A.S.S. sub cockpit">
-</p>
-
-_(Photos of student work, used with permission)_
-
-## Class Description
-
-### Tangible Interfaces are an opportunity for designers
-
-”Software is eating the world” [claimed Marc Andreessen in 2011](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460). Its all-consuming hunger is ravaging the product design landscape. Many consumer products, from cameras to Walkmans to in-car controls are now simply apps on a featureless glass oblong. This leads to bland product design and customer dissatisfaction. In car design, this has even become a safety concern. “Physical buttons are increasingly rare in modern cars. The driver in the worst-performing car control system needs four times longer to perform simple tasks than in the best-performing” [link](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
-
-An era where “everything is an app and all apps look the same” is also an opportunity for industrial designers to create innovative new products. In Tangible Interfaces, the student is invited to think beyond the screen and design for touch, hearing, and the [dozens of other senses](https://en.wikipedia.org/wiki/Sense) that people have.
-
-_What’s your favorite instance of haptic nostalgia—the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?_ [Erin McKean (@emckean.bsky.social)](https://bsky.app/profile/emckean.bsky.social/post/3lfjeep3w4k22)
 
 ## Class Schedule
 

@@ -5,14 +5,27 @@ title: Tangible Interfaces
 <style>
 h2 {margin-top:3em;}
 
+.pullquote {
+  font-family: "ER", Georgia, serif;
+  font-size: 1.5em;
+  line-height: 1.4;
+  color: var(--color-teal);
+  border-left: 4px solid var(--color-tan);
+  padding: 0.5em 1em;
+  margin: 1.5em 0;
+}
+.pullquote cite {
+  display: block;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 0.55em;
+  margin-top: 0.5em;
+  color: var(--color-gray);
+}
 </style>
 
 <div class="toc-wrapper" markdown="1">
-
-### Contents
-
+## Contents
 {: .no_toc}
-
 - TOC
 {:toc}
 </div>
@@ -26,6 +39,11 @@ The Tangible Interfaces Lab at Pratt Institute, created by
 
 **Tangible Interfaces are an opportunity for designers.** When &ldquo;everything is an app and all apps look the same&rdquo; physical interaction is an opportunity for industrial designers to create innovative new
 products.
+
+<div class="pullquote">
+What's your favorite instance of haptic nostalgia—the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?
+<cite>— <a href="https://bsky.app/profile/emckean.bsky.social/post/3lfjeep3w4k22">Erin McKean (@emckean.bsky.social)</a></cite>
+</div>
 
 ## [Blog](blog)
 

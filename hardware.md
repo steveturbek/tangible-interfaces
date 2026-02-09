@@ -2,14 +2,9 @@
 title: Tangible Interfaces Hardware
 ---
 
-# Tangible Interfaces Hardware
-
 <div class="toc-wrapper" markdown="1">
-
 ## Contents
-
 {: .no_toc}
-
 - TOC
 {:toc}
 </div>
