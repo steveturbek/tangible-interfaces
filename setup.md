@@ -1,5 +1,11 @@
 # Local Jekyll Setup (macOS)
 
+to build site locally and run put in terminal in VS Code
+
+```
+bundle exec jekyll serve --incremental & sleep 2 && open -a "Google Chrome" http://localhost:4000/tangible-interfaces/
+```
+
 ## One-Time Setup
 
 ### 1. Install Homebrew Ruby and rbenv

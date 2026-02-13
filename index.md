@@ -100,6 +100,6 @@ the right parts for your project.
 
 Sample code, tutorials, and reusable snippets for working with sensors, actuators, and communication protocols.
 
-## [Further reading and references](references.html)
+## [References](references.html)
 
 Books, articles, and online resources on tangible interaction design, physical computing, and related fields.

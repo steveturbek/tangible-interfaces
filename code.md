@@ -35,14 +35,28 @@ Tilt-to-navigate game: tilt the micro:bit to move a bright dot toward a dimmer t
 {% include_relative code/accelerometer_tilt_game.ts %}
 {% endhighlight %}
 
+### Simple External button component
+
 ### Basic Analog sensor
 
-Reads an analog sensor on pin P0 and displays the value as a bar graph on the LED screen.
+Reads an analog sensor on pin P0 and displays the value as a bar graph on the LED screen. An example sensor is the "[potentiometer](https://en.wikipedia.org/wiki/Potentiometer)" (a rotating variable resistor) that changes the voltage that the microbit sees.
 
 [microbit.org code link](https://makecode.microbit.org/S61449-51133-57093-06515)
 
 {% highlight typescript %}
 {% include_relative code/analog_reading.ts %}
+{% endhighlight %}
+
+### Joystick Input
+
+Reads an analog joystick and displays position as a dot on the LED screen. Pressing the joystick button plays a sound.
+
+The joystick is actually simply 2 rotating variable resistors
+
+[microbit.org code link](https://makecode.microbit.org/S98667-77037-39323-51354)
+
+{% highlight typescript %}
+{% include_relative code/joystick_demo.ts %}
 {% endhighlight %}
 
 ### Ultrasonic Distance Sensor
@@ -56,14 +70,14 @@ Reads an ultrasonic distance sensor (HC-SR04) and displays the distance as a bar
 {% include_relative code/distance_sensor_simple.ts %}
 {% endhighlight %}
 
-### Analog data smoothing
+### Servo simple
 
-Demonstrates smoothing noisy analog sensor data using a rolling average and dynamic min/max tracking. More advanced concept to be aware of.
+Sweeps a servo motor back and forth from 0 to 180 degrees continuously.
 
-[microbit.org code link](https://makecode.microbit.org/S10223-09090-76174-26970)
+[microbit.org code link](https://makecode.microbit.org/S99615-71280-94337-78432)
 
 {% highlight typescript %}
-{% include_relative code/analog_data_smoothing.ts %}
+{% include_relative code/servo_simple.ts %}
 {% endhighlight %}
 
 ### Rotary encoder
@@ -76,6 +90,71 @@ Demonstrates a KY-040 rotary encoder: twist to change a value shown as a bar gra
 {% include_relative code/rotary_encoder.ts %}
 {% endhighlight %}
 
+### OLED Display
+
+Rich visual output beyond the 5x5 grid
+[microbit.org code link](https://makecode.microbit.org/S17265-52553-68925-94203) Temporary code
+
+### LCD Display
+
+Text output for dashboards
+
+### Ultraviolet Sensor
+
+When should you re-apply sunscreen?
+
+### IR Remote Reader
+
+Read the included remote's buttons OR your TV or AC remote
+
+### IR Control Your Devices
+
+Send IR signals to control real devices, like your TV or your Air condioner
+
+### Motion Sensor
+
+Detect human presence for reactive installations
+
+### Analog Gas Sensor
+
+### Analog Alcohol Sensorcan
+
+### Capacitive Touch
+
+Touch without buttons, hidden/embedded surfaces
+
+### Fan Module
+
+Physical wind output you can feel
+
+### Relay Module
+
+Switch real devices on/off (let's start with a 12v component)
+
+### Pressure/Force Sensor
+
+Squeeze/press as analog input
+
+### Temperature And Humidity Sensor
+
+Using the DHT11 temperature and humidity sensor
+
+### Hall Magnetic Sensor
+
+This very simple sensor is used everywhere in devices, cars, and homes.
+
+## Medium complexity examples
+
+### Analog data smoothing
+
+Demonstrates smoothing noisy analog sensor data using a rolling average and dynamic min/max tracking. More advanced concept to be aware of.
+
+[microbit.org code link](https://makecode.microbit.org/S10223-09090-76174-26970)
+
+{% highlight typescript %}
+{% include_relative code/analog_data_smoothing.ts %}
+{% endhighlight %}
+
 ### Rotary encoder with RGB Color Picker
 
 RGB rotary encoder color picker: twist to cycle through colors, press the button to send the selected hex color value over serial.
@@ -84,16 +163,6 @@ RGB rotary encoder color picker: twist to cycle through colors, press the button
 
 {% highlight typescript %}
 {% include_relative code/rotary_encoder_RGB_color_picker.ts %}
-{% endhighlight %}
-
-### Servo simple
-
-Sweeps a servo motor back and forth from 0 to 180 degrees continuously.
-
-[microbit.org code link](https://makecode.microbit.org/S99615-71280-94337-78432)
-
-{% highlight typescript %}
-{% include_relative code/servo_simple.ts %}
 {% endhighlight %}
 
 ### Control Servo with analog sensor
@@ -114,16 +183,6 @@ Controls a servo motor based on an ultrasonic distance sensor reading, with data
 
 {% highlight typescript %}
 {% include_relative code/servo_sonar_smoothing.ts %}
-{% endhighlight %}
-
-### Joystick as input
-
-Reads an analog joystick and displays position as a dot on the LED screen. Pressing the joystick button plays a sound.
-
-[microbit.org code link](https://makecode.microbit.org/S98667-77037-39323-51354)
-
-{% highlight typescript %}
-{% include_relative code/joystick_demo.ts %}
 {% endhighlight %}
 
 ## More Advanced programs
@@ -147,6 +206,35 @@ Steers a servo motor up and down using buttons A and B. A simple demo of using b
 {% highlight typescript %}
 {% include_relative code/flappy_servo.ts %}
 {% endhighlight %}
+
+### Smart Thermostat Demo
+
+Components: DHT11 + OLED Display + Fan Module + Relay
+Read temperature, show it on screen, automatically turn on a fan when too hot.
+maybe heat up somehow? LED?
+This is a Nest thermostat in miniature. Designers see exactly how a real product is structured: sense > process > display > actuate.
+
+### Proximity-Reactive Object
+
+Components: Ultrasonic (already covered) + OLED + Servo
+An object that tracks you: display changes as you approach, servo arm points toward you. Combines existing ultrasonic knowledge with new display output. Think: interactive museum exhibit, responsive furniture, robot personality.
+
+### Security / Alert System
+
+Components: PIR + Passive Buzzer + OLED + IR Remote
+Motion detected = alarm + display message. Arm/disarm with remote. Shows the full loop of a real security product. Great for understanding state machines (armed/disarmed/triggered)
+
+### Environmental Dashboard
+
+Components: DHT11 + Light Sensor + ultaviolet
+Multiple environmental readings on one display. A tiny weather station or room-health monitor. Teaches data visualization on physical displays.
+
+### Plant Nanny
+
+UV sensor / soil water sensor
+temperature sensor
+OLED
+servo manages water dispensing with 3D print geared ball valve
 
 ### Wireless Social Network
 
