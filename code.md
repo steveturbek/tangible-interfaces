@@ -2,6 +2,10 @@
 title: Tangible Interfaces Code
 ---
 
+{% comment %}
+The makecode.mocrobit.org links are under s t urbek gmail account
+{% endcomment %}
+
 <div class="toc-wrapper" markdown="1">
 ## Contents
 {: .no_toc}
@@ -29,29 +33,105 @@ A simple demo of the built-in Microbit compass function.
 {% include_relative code/compass.ts %}
 {% endhighlight %}
 
-### [Ultrasonic Distance Sensor](https://makecode.microbit.org/S35805-39809-52833-74997)
+### Basic Analog sensor
+
+[microbit.org code link](https://makecode.microbit.org/S61449-51133-57093-06515)
+
+{% highlight typescript %}
+{% include_relative code/analog_reading.ts %}
+{% endhighlight %}
+
+### Ultrasonic Distance Sensor
 
 In microbit code editor, open "extensions", search for 'Sonar' and add. [example project](https://www.instructables.com/Distance-Sensing-With-the-Microbit-and-Sonar-HC-SR/)
 [Example video](https://www.youtube.com/watch?v=_nI336ZbHcQ)
 
-### [Basic Analog sensor](https://makecode.microbit.org/S00413-52693-48127-34852)
+[microbit.org code link](https://makecode.microbit.org/S87497-27065-52380-42014)
 
-### [Analog-data-smoothing](https://makecode.microbit.org/S61055-28532-56631-56450) More advanced concept to be aware of
+{% highlight typescript %}
+{% include_relative code/distance_sensor_simple.ts %}
+{% endhighlight %}
 
-### [Rotary encoder](https://makecode.microbit.org/S64071-13319-65768-28069)
+### Analog data smoothing
 
-### [Rotary encoder with RGB Color Picker](https://makecode.microbit.org/S70469-08391-17891-16578)
+More advanced concept to be aware of
 
-### [Servo simple](https://makecode.microbit.org/S21494-23982-18118-18659)
+[microbit.org code link](https://makecode.microbit.org/S10223-09090-76174-26970)
 
-### [Control Servo with potentiometer](https://makecode.microbit.org/S07735-75535-28524-22846)
+{% highlight typescript %}
+{% include_relative code/analog_data_smoothing.ts %}
+{% endhighlight %}
 
-### [Servo sonar with smoothing](https://makecode.microbit.org/S97093-33787-20371-25883)
+### Rotary encoder
 
-### [Joystick as input](https://makecode.microbit.org/S60802-26853-41090-38929)
+[microbit.org code link](https://makecode.microbit.org/S96536-01875-53081-74399)
 
-### [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
+{% highlight typescript %}
+{% include_relative code/rotary_encoder.ts %}
+{% endhighlight %}
 
-### [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
+### Rotary encoder with RGB Color Picker
 
-### [Wireless Social Network](https://makecode.microbit.org/#) Choose "Micro Chat" Tutorial
+{% highlight typescript %}
+{% include_relative code/rotary_encoder_RGB_color_picker.ts %}
+{% endhighlight %}
+
+[microbit.org code link](https://makecode.microbit.org/S80320-36140-68879-21230)
+
+### Servo simple
+
+[Servo simple](https://makecode.microbit.org/S99615-71280-94337-78432)
+
+{% highlight typescript %}
+{% include_relative code/servo_simple.ts %}
+{% endhighlight %}
+
+### Control Servo with analog sensor
+
+[microbit.org code link](https://makecode.microbit.org/S05211-57054-74886-19489)
+
+{% highlight typescript %}
+{% include_relative code/servo_analog_sensor.ts %}
+{% endhighlight %}
+
+### Servo sonar with smoothing
+
+[microbit.org code link](https://makecode.microbit.org/S30781-81272-24701-69091)
+
+{% highlight typescript %}
+{% include_relative code/servo_sonar_smoothing.ts %}
+{% endhighlight %}
+
+### Joystick as input
+
+[microbit.org code link](https://makecode.microbit.org/S98667-77037-39323-51354)
+
+{% highlight typescript %}
+{% include_relative code/joystick_demo.ts %}
+{% endhighlight %}
+
+## More Advanced programs
+
+### Flappy pixel
+
+[microbit.org code link](https://makecode.microbit.org/S97208-24122-46510-97531)
+
+{% highlight typescript %}
+{% include_relative code/flappy_bird.ts %}
+{% endhighlight %}
+
+### Flappy Servo
+
+[microbit.org code link](https://makecode.microbit.org/S30407-50237-21828-51335)
+
+{% highlight typescript %}
+{% include_relative code/flappy_servo.ts %}
+{% endhighlight %}
+
+### Wireless Social Network
+
+[microbit.org code link](https://makecode.microbit.org/S33038-57917-41111-12362)
+
+{% highlight typescript %}
+{% include_relative code/micro_chat.ts %}
+{% endhighlight %}
