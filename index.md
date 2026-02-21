@@ -3,7 +3,7 @@ title: Tangible Interfaces
 ---
 
 <style>
-h2 {margin-top:3em;}
+h2 {margin-top:2em;}
 
 .pullquote {
   font-family: "ER", Georgia, serif;
@@ -23,19 +23,25 @@ h2 {margin-top:3em;}
 }
 
 /* hide h3 items on home page */
-#markdown-toc li ul { 
+#markdown-toc li ul li ul{ 
   display:none;
 }
+
+ @media screen and (max-width: 1100px) {
+        .toc-wrapper {
+          /* display:none; */
+    }
+ }
+
 </style>
 
-<div class="toc-wrapper" markdown="1">
-## Contents
-{: .no_toc}
+# Tangible Interfaces Lab
+
+<details class="toc-wrapper" open markdown="1">
+<summary>Contents</summary>
 - TOC
 {:toc}
-</div>
-
-## Tangible Interfaces Lab
+</details>
 
 The Tangible Interfaces Lab at Pratt Institute, created by
 [Steve Turbek](https://turbek.com), explores interaction design beyond the touchscreen. We design for touch, hearing, and the many other senses that people possess.

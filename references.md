@@ -2,12 +2,13 @@
 title: Tangible Interfaces References
 ---
 
-<div class="toc-wrapper" markdown="1">
-## Contents
-{: .no_toc}
+# References
+
+<details class="toc-wrapper" open markdown="1">
+<summary>Contents</summary>
 - TOC
 {:toc}
-</div>
+</details>
 
 ## Microbit Documentation
 

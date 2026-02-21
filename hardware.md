@@ -2,12 +2,13 @@
 title: Tangible Interfaces Hardware
 ---
 
-<div class="toc-wrapper" markdown="1">
-## Contents
-{: .no_toc}
+# Hardware
+
+<details class="toc-wrapper" open markdown="1">
+<summary>Contents</summary>
 - TOC
 {:toc}
-</div>
+</details>
 
 The microbit is a small and inexpensive computer and circuit board, which can be programmed via a web browser with simple coding. It has a surprising number of sensors and features built in.
 

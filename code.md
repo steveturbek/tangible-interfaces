@@ -6,12 +6,13 @@ title: Tangible Interfaces Code
 The makecode.microbit.org links are under s t urbek gmail account
 {% endcomment %}
 
-<div class="toc-wrapper" markdown="1">
-## Contents
-{: .no_toc}
+# Code Examples
+
+<details class="toc-wrapper" open markdown="1">
+<summary>Contents</summary>
 - TOC
 {:toc}
-</div>
+</details>
 
 ## Intro
 
